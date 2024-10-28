@@ -1,0 +1,504 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none !important;
+    color: black !important;
+    font-family: '等线', Courier, monospace;
+}
+
+
+
+#headertop {
+    width: 100%;
+    height: 42px;
+    display: inline-block;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+.headerText {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerText:hover {
+    color: rgb(50, 106, 247) !important;
+}
+
+#logo {
+    text-align: center;
+}
+
+#seachboxLeft {
+    width: 500px;
+    height: 35px;
+    border: 2px solid rgb(167, 170, 181);
+    border-right: none;
+    display: inline-block;
+    margin-left: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+}
+
+#search {
+    display: inline-block;
+    position: absolute;
+    left: 210px;
+    top: 5px;
+    height: 200px !important;
+}
+
+#seachboxRight {
+    height: 39px;
+    width: 100px;
+    background-color: rgb(50, 106, 247) !important;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    left: 700px;
+    z-index: 10;
+}
+
+#seachboxRight:hover {
+    background-color: rgb(67, 101, 214) !important;
+}
+
+input {
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 470px;
+    background-color: transparent;
+}
+
+
+#more {
+    /* visibility: hidden; */
+    width: 200px;
+    height: flex;
+    position: absolute;
+    left: 358px;
+    top: 0px;
+    background-color: transparent;
+    /* z-index: -10; */
+}
+
+#triggers {
+    z-index: 10;
+}
+
+#trigger1 {
+    position: absolute;
+    width: 46px;
+    height: 31px;
+    right: 0px;
+    top: 0px;
+}
+
+#trigger2 {
+    position: absolute;
+    width: 177px;
+    height: 230px;
+    right: 0px;
+    top: 33px;
+    border-radius: 10px;
+}
+
+#menu {
+    position: absolute;
+    width: 177px;
+    height: 230px;
+    right: 0px;
+    top: 0px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    display: none;
+}
+
+#more {
+    top: 27px !important;
+}
+
+#content {
+    height: 67px;
+    width: 57px;
+    float: left;
+    text-align: center;
+}
+
+#bottomText {
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#contentBox {
+    border: 10px solid transparent;
+    border-bottom: none;
+}
+
+#contentIcon {
+    width: 30px;
+    height: auto;
+}
+
+#contentText {
+    font-size: 10px;
+}
+
+#weather {
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    height: flex;
+    right: 135px;
+    top: 44px;
+    z-index: 10;
+    display: none;
+}
+
+#weatherContent {
+    position: relative;
+    height: 162px;
+    width: 300px;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+    background-color: white;
+}
+
+#weatherIconContentBox {
+    height: 30px;
+    width: 30px;
+    float: left;
+    background-color: rgb(42, 156, 237);
+    border-radius: 6px;
+}
+
+#weatherWarning {
+    float: left;
+    position: absolute;
+    left: 45px;
+    top: 8px;
+    font-size: 12px;
+    color: rgb(139, 142, 152);
+}
+
+#weatherContent1 {
+    height: 30px;
+    width: 300px;
+    float: left;
+    position: absolute;
+    top: 30px;
+}
+
+#weatherHeader {
+    width: 280px;
+    height: 30px;
+    background-color: rgb(245, 245, 246);
+    border-radius: 6px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+.weatherContent1TextLeft {
+    float: left;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.weatherContent1TextRight {
+    float: right;
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+    right: 15px;
+    color: rgb(162, 165, 177);
+}
+
+#weatherContent2 {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+}
+
+.dailyWeatherInformationBox {
+    width: 54px;
+    height: 100px;
+    float: left;
+}
+
+.dailyWeatherInformationText1,
+.dailyWeatherInformationBox {
+    font-size: 9px !important;
+    display: block;
+    line-height: 15px;
+}
+
+
+
+.dailyWeatherInformationText2,
+.dailyWeatherInformationText3,
+.dailyWeatherInformationText4 {
+    font-size: 10px !important;
+    display: block;
+    line-height: 15px;
+}
+
+.dailyWeatherIcon {
+    width: 20px;
+    height: auto;
+}
+
+#weathers {
+    width: 400px;
+    height: auto;
+}
+
+#settings {
+    width: 60px;
+    height: 90px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    position: absolute;
+    top: 30px;
+    right: 166px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 18px;
+    display: none;
+}
+
+#recommendations {
+    width: 521px;
+    height: 200px;
+    border: 1px solid transparent;
+    position: absolute;
+    left: 135px;
+    display: inline-block;
+    top: 249px;
+}
+
+#recommendationsHeader {
+    width: auto;
+    height: 30px;
+    border: 1px solid transparent;
+
+}
+
+#recommendationsHeader a {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 13px;
+    border-bottom: 2px solid rgb(67, 101, 214);
+    margin-left: 12px;
+}
+
+#recommendationsCotent {
+    width: auto;
+    height: 200px;
+    border: 1px solid transparent;
+}
+
+#hotSearch {
+    width: 213px;
+    height: 200px;
+    position: absolute;
+    left: 690px;
+    top: 249px;
+    display: inline-block;
+}
+
+#hotSearchHeader {
+    width: 208px;
+    height: 20px;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#hotSearchLogo {
+    width: auto;
+    height: 15px;
+    display: inline-block;
+}
+
+#hotSearchRefreshLogo {
+    width: auto;
+    height: 15px;
+    position: relative;
+    right: 3px;
+    top: -19px;
+    float: right;
+}
+
+#hotSearchList {
+    position: relative;
+    top: 30px;
+    width: auto;
+    height: 170px;
+}
+
+#listNumber {
+    height: 198px;
+    width: auto;
+}
+
+#hotSearchListContentBox {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 16px;
+    bottom: -128px;
+    z-index: 100;
+    overflow: visible;
+}
+
+#hotSearchListNumber {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: visible;
+    list-style: none;
+    z-index: 90;
+    color: black;
+    position: absolute;
+    top: -5px;
+}
+
+#hotSearchListContent {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: visible;
+    list-style: none;
+    z-index: 90;
+    color: black;
+}
+
+#hotSearchListContent li:hover {
+    color: rgb(41, 99, 247) !important;
+}
+
+#News1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: black;
+    line-height: 20px;
+}
+
+#News1:hover {
+    color: rgb(41, 99, 247) !important;
+}
+
+#News2 {
+    position: absolute;
+    left: 13px;
+    top: 10px;
+}
+
+#News2:hover {
+    color: rgb(41, 99, 247) !important;
+}
+
+.NewsContentBox {
+    width: auto;
+    height: 100px;
+}
+
+#News1ImageContentBox {
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+#News1Image {
+    width: 150px;
+    height: 100px;
+}
+
+#News1TextContentBox {
+    width: 360px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+
+.News1Box {
+    display: inline-block;
+}
+
+#News1TextContentBoxFooter {
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.News1TextContentBoxFooterText {
+    line-height: 1.5;
+}
+
+#soundIcon {
+    position: relative;
+    top: 2px;
+    float: right;
+    width: auto;
+    height: 13px;
+    display: inline;
+    line-height: 10px;
+}
+
+#News2ContentBox {
+    position: relative;
+    height: 150px;
+    display: block;
+}
+
+.News2Images {
+    float: left;
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: 30px;
+}
+
+#News2TextContentBoxFooter {
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+#soundIcon2 {
+    position: relative;
+    top: 2px;
+    float: right;
+    width: auto;
+    height: 13px;
+    display: inline;
+    line-height: 10px;
+}
+
+
+/* * div {
+    border: 1px solid blue !important;
+}
+ */
+/* #recommendations div {
+    border: 1px solid blue;
+}
+
+#hotSearch div {
+    border: 1px solid blue;
+} */
